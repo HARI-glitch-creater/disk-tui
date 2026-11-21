@@ -1,0 +1,26 @@
+{
+  "name": "disk-tui",
+  "version": "1.0.0",
+  "description": "Zero-dependency, 60 FPS touch-and-keyboard Linux package storage visualizer with squarified treemap, translucent glass UI, and cross-distro uninstall.",
+  "main": "bin/disk-tui.js",
+  "bin": {
+    "disk-tui": "./bin/disk-tui.js"
+  },
+  "scripts": {
+    "start": "node bin/disk-tui.js"
+  },
+  "keywords": [
+    "tui",
+    "terminal",
+    "disk-usage",
+    "treemap",
+    "linux",
+    "termux",
+    "cli",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
